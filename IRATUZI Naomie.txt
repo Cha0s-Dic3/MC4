@@ -1,0 +1,84 @@
+ IRATUZI Naomie
+
+Full-Stack Developer & Creative Designer
+
+
+
+ Profile
+
+I am a passionate student and aspiring full-stack developer with a strong interest in building real, functional systems. I enjoy working across the entire development process—from backend logic to frontend interfaces—bringing ideas to life through clean and efficient code.
+
+My journey into development started with curiosity and quickly grew into a genuine passion. I take pride in understanding how systems work behind the scenes and transforming concepts into practical applications.
+
+In addition to development, I am expanding my skills in graphic design, allowing me to combine technical problem-solving with creativity. My goal is to create user-focused digital experiences that are both functional and visually engaging.
+
+I am continuously learning, improving, and challenging myself with every project I take on.
+
+
+
+ Technical Skills
+
+Frontend Development
+
+* React.js
+* HTML5, CSS3, JavaScript
+* Responsive Design
+
+Backend Development
+
+* Node.js
+* Express.js
+
+Database Management
+
+* MongoDB / NoSQL Databases
+* Basic SQL
+
+Tools & Technologies
+
+* Git & GitHub
+* REST APIs
+* VS Code
+
+**Design Skills**
+
+* Graphic Design Basics
+* UI/UX Principles
+
+
+
+ Projects
+
+Full-Stack Web Applications
+
+* Developed dynamic web applications integrating frontend and backend systems
+* Built RESTful APIs using Node.js and Express
+* Connected databases to manage and store application data
+
+UI & Design Work
+
+* Designed clean and user-friendly interfaces
+* Applied basic UI/UX principles to improve usability and experience
+
+
+ Career Objective
+
+To grow into a skilled full-stack developer and designer capable of building scalable, efficient, and user-centered digital solutions while continuously improving my technical and creative abilities.
+
+
+
+ Personal Strengths
+
+* Strong problem-solving mindset
+* Continuous learner and self-motivated
+* Attention to detail
+* Ability to combine creativity with technical skills
+* Passion for building real-world solutions
+
+
+
+ Contact:
+
+Email:naomiejeje107@gmail.com
+
+Phone: 0735123452
