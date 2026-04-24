@@ -1,0 +1,61 @@
+.cv-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: clamp(18px, 4vw, 42px);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(236, 72, 153, 0.18), transparent 28%),
+    radial-gradient(circle at 88% 86%, rgba(168, 85, 247, 0.25), transparent 32%),
+    #09070f;
+}
+
+.cv-card {
+  width: min(700px, 100%);
+  border: 1px solid rgba(216, 180, 232, 0.32);
+  border-radius: 22px;
+  background: rgba(20, 14, 30, 0.92);
+  color: #f6ecff;
+  padding: clamp(18px, 4vw, 34px);
+  box-shadow: 0 18px 42px rgba(5, 2, 10, 0.5);
+}
+
+.cv-card h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+}
+
+.cv-card p {
+  margin-top: 12px;
+  line-height: 1.7;
+  color: #e0caee;
+}
+
+.cv-status {
+  color: #f1c8e5;
+}
+
+.cv-download-btn {
+  margin-top: 18px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  color: #170c23;
+  font-weight: 700;
+}
+
+.cv-nav {
+  margin-top: 22px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cv-nav a {
+  text-decoration: none;
+  color: #f3deff;
+  border: 1px solid rgba(216, 180, 232, 0.4);
+  border-radius: 999px;
+  padding: 8px 14px;
+}

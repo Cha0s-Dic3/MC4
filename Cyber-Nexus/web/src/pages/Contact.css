@@ -1,0 +1,126 @@
+.contact-page {
+  min-height: 100vh;
+  padding: clamp(16px, 4vw, 42px);
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 12% 12%, rgba(236, 72, 153, 0.18), transparent 28%),
+    radial-gradient(circle at 86% 84%, rgba(168, 85, 247, 0.25), transparent 32%),
+    #09070f;
+  color: #f6eeff;
+}
+
+.contact-card {
+  width: min(760px, 100%);
+  border-radius: 22px;
+  border: 1px solid rgba(216, 180, 232, 0.3);
+  background: rgba(18, 12, 26, 0.93);
+  padding: clamp(16px, 4vw, 34px);
+  box-shadow: 0 18px 44px rgba(5, 2, 10, 0.48);
+  animation: fadeInUp 0.55s ease;
+}
+
+.contact-card h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4.8vw, 2.9rem);
+}
+
+.contact-lead {
+  margin-top: 12px;
+  color: #e0caee;
+  line-height: 1.7;
+}
+
+.contact-links {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #f8e5ff;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(236, 72, 153, 0.35);
+  transition: transform 0.2s ease;
+}
+
+.contact-links a:hover {
+  transform: translateX(2px);
+}
+
+.contact-form {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-form label {
+  color: #e8d1f6;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid rgba(216, 180, 232, 0.45);
+  background: rgba(13, 8, 19, 0.94);
+  color: #fff4ff;
+  border-radius: 10px;
+  padding: 10px;
+  font: inherit;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 6px;
+  width: fit-content;
+  border: 0;
+  border-radius: 999px;
+  padding: 11px 18px;
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  color: #140a1f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-state {
+  margin: 6px 0 0;
+  color: #9ff3c9;
+}
+
+.contact-nav {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact-nav a {
+  text-decoration: none;
+  color: #f3deff;
+  border: 1px solid rgba(216, 180, 232, 0.4);
+  border-radius: 999px;
+  padding: 8px 14px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

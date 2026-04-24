@@ -1,0 +1,80 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Segoe UI, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 0% 0%, #2c173e, transparent 35%), #0f0b16;
+  color: #f4ecff;
+}
+
+.page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header h1 {
+  margin-bottom: 8px;
+}
+
+.header p {
+  margin-top: 0;
+  color: #cab4de;
+}
+
+.card {
+  border: 1px solid rgba(229, 195, 255, 0.25);
+  background: rgba(23, 15, 34, 0.92);
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  border-radius: 10px;
+  border: 1px solid rgba(229, 195, 255, 0.25);
+  padding: 10px;
+  margin-top: 8px;
+  background: #130d1d;
+  color: #f4ecff;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  background: linear-gradient(90deg, #ea3e99, #9b5cf6);
+  border: none;
+  color: #1b0f28;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+pre {
+  min-height: 120px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #130d1d;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgba(229, 195, 255, 0.18);
+}

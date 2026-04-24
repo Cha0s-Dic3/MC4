@@ -1,0 +1,70 @@
+const palette = {
+  bg: "#0d0a12",
+  bgElevated: "#120a16",
+  pink: "#d946aa",
+  pinkBright: "#ec4899",
+  pinkLight: "#e879c8",
+  pinkSoft: "#f472b6",
+  pinkPale: "#f9d4ef",
+  pinkOutput: "#f0abdc",
+  purple: "#c084fc",
+  purpleDeep: "#a855f7",
+  purpleMuted: "#7c5e8a",
+  purpleMid: "#c4a8d4",
+  green: "#34d399",
+  white: "#ffffff",
+};
+
+const colors = {
+  light: {
+    text: palette.white,
+    tint: palette.pink,
+
+    background: palette.bg,
+    foreground: palette.white,
+
+    card: "rgba(18,10,22,0.88)",
+    cardForeground: palette.white,
+
+    primary: palette.pink,
+    primaryForeground: palette.bg,
+
+    secondary: "rgba(192,132,252,0.06)",
+    secondaryForeground: palette.purple,
+
+    muted: "rgba(217,70,170,0.06)",
+    mutedForeground: palette.purpleMuted,
+
+    accent: palette.purple,
+    accentForeground: palette.white,
+
+    destructive: "#ef4444",
+    destructiveForeground: palette.white,
+
+    border: "rgba(217,70,170,0.15)",
+    input: "rgba(217,70,170,0.25)",
+
+    pink: palette.pink,
+    pinkBright: palette.pinkBright,
+    pinkLight: palette.pinkLight,
+    pinkSoft: palette.pinkSoft,
+    pinkPale: palette.pinkPale,
+    pinkOutput: palette.pinkOutput,
+    purple: palette.purple,
+    purpleDeep: palette.purpleDeep,
+    purpleMuted: palette.purpleMuted,
+    purpleMid: palette.purpleMid,
+    green: palette.green,
+    grid: "rgba(217,70,170,0.08)",
+    divider: "rgba(217,70,170,0.18)",
+    pillPinkBg: "rgba(217,70,170,0.06)",
+    pillPinkBorder: "rgba(217,70,170,0.25)",
+    pillPurpleBg: "rgba(192,132,252,0.06)",
+    pillPurpleBorder: "rgba(192,132,252,0.25)",
+    terminalBg: "rgba(18,10,22,0.92)",
+    terminalBorder: "rgba(217,70,170,0.2)",
+  },
+  radius: 14,
+};
+
+export default colors;

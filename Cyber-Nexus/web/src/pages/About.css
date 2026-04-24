@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+.about-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(236, 72, 153, 0.18), transparent 28%),
+    radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.2), transparent 32%),
+    #09070f;
+  color: #f7efff;
+}
+
+.about-card {
+  max-width: 860px;
+  width: 100%;
+  border: 1px solid rgba(216, 180, 232, 0.28);
+  border-radius: 24px;
+  background: rgba(20, 14, 28, 0.92);
+  padding: clamp(18px, 4vw, 38px);
+  box-shadow: 0 22px 42px rgba(4, 1, 8, 0.45);
+}
+
+.about-card h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+}
+
+.about-card > p {
+  margin-top: 14px;
+  color: #dcc4e9;
+  line-height: 1.8;
+}
+
+.about-status {
+  margin-top: 10px;
+  color: #f3c1df;
+}
+
+.about-points {
+  margin-top: 22px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.about-points article {
+  border: 1px solid rgba(236, 72, 153, 0.26);
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(14, 9, 20, 0.72);
+}
+
+.about-points h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.about-points p {
+  margin: 8px 0 0;
+  color: #d9bee7;
+  line-height: 1.6;
+}
+
+.about-nav {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.about-nav a {
+  text-decoration: none;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(216, 180, 232, 0.4);
+  color: #f6e4ff;
+}
